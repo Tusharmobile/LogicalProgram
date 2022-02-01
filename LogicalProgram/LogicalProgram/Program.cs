@@ -11,6 +11,8 @@ namespace LogicalProgram
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to the logical problem");
+            FibonacciSeries series = new FibonacciSeries();
+            series.Fibo();
             Console.ReadLine();
         }
     }
